@@ -33,3 +33,8 @@ versionStream:
   ref: "master"
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: lighthouse
+buildPacks:
+  buildPackLibrary:
+    name: "demobuildpacks"
+    gitURL: "https://github.com/kameswarab/jenkins-x-kubernetes.git"
+    gitRef: "tutorial-build-pack"
